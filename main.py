@@ -10,7 +10,7 @@ import json
 import requests
 import logging
 
-json_context = open('data/config.json')
+json_context = open('config.json')
 read_context = json.load(json_context)
 TOKEN = read_context['token']
 
